@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color: #f0d586;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page-title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.page-title h1{
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(98, 63, 14);
+}
+.page-title p{
+    margin-top: 0px;
+    font-size: 13px;
+    color: rgb(98, 63, 14);
+    letter-spacing: 2px;
+}
+.container{
+    width: 900px;
+    margin: 30px auto;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(108, 102, 102);
+}
+.image-box{
+    width: 45%;
+    background-color:#f7cf57 ;
+    text-align: center;
+    padding: 30px;
+}
+.image-box img{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.image-box h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 8px;
+    color: rgb(98, 63, 14);
+}
+.image-box p{
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(180, 124, 45);
+}
+.form-box{
+    width: 55%;
+    padding: 5%;
+}
+.form-box h2{
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(98, 63, 14);
+}
+.subtitle{
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(180, 124, 45);
+}
+label{
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(7, 3, 3);
+    text-align: left;
+}
+input,select{
+    width: 100%;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f5ebc8;
+    box-sizing: border-box;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}

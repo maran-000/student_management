@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-title">
+        <h1>Student management system</h1>
+        <p>STUDENT REGISTRATION PORTAL</p>
+    </div>
+    <div class="container">
+        <!-- LEFT SIDE IMAGE -->
+        <div class="image-box">
+            <img src="st3.jpeg" alt="student image">
+            <h2>Shape Your Future</h2>
+            <p>Register student details and
+                begin the journey towards success.
+            </p>
+        </div>
+        <!-- RIGHT SIDE FORM -->
+        <div class="form-box">
+            <h2>Add Student </h2>
+            <p class="subtitle">Enter the student details below</p>
+            <form action="" id="studentform">
+                <label for="">Student name</label>
+                <input type="text" name="" id="name" placeholder="Enter student name" required>
+                <label for="">Email Address</label>
+                <input type="email" name="" id="email" placeholder="Enter email address" required>
+                <label for="">Phone Number</label>
+                <input type="tel" name="" id="phone" placeholder="Enter phone number" required>
+                <label for="">Department</label>
+                <select name="" id="department">
+                    <option value="">Select Department</option>
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="CYS">CYS</option>
+                </select>
+                <label for="">College Name</label>
+                <input type="text" name="" id="college" placeholder="Enter College Name" required>
+                <label for="">Year of Study</label>
+                <select name="" id="year">
+                    <option value="">Select Year</option>
+                    <option value="1">1st Year</option>
+                    <option value="2">2nd Year</option>
+                    <option value="3">3rd Year</option>
+                    <option value="4">4th Year</option>
+                </select>
+                <label for="">City</label>
+                <input type="text" name="" id="city" placeholder="Enter City" required>
+                <button type="submit">Add Student</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
